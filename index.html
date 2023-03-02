@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+
+  <main>
+    
+    <section class="walletResumeSec">
+      
+      <div class="my_Balance">
+        <h2>My balance</h2>
+        <p>$921.48</p>
+      </div>
+
+      <img src="./images/logo.svg">
+      
+
+    </section>
+
+    <section class="walletDetailSec">
+
+      <div class="graphSec">
+      
+        <h2>Spending - Last 7 days</h2>
+
+        <div>
+          <canvas id="myChart"></canvas>
+        </div>
+
+      </div>
+
+      <hr>
+
+      <div class="metricSec">
+      
+        <div class="totalArea">
+          <h2>Total this month</h2>
+          <span>$478.33</span>
+        </div>
+
+        <div class="percentArea">
+          <span>+2.4%</span>
+          <h2>from last month</h2>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <script type="text/javascript" src="./script.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+  <script type="text/javascript" src="./custom.js"></script>
+</body>
+</html>
