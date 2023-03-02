@@ -1,5 +1,5 @@
 var xmlhttp = new XMLHttpRequest(); 
-var url = '../expenses-chart-component-main/data.json';
+var url = '../challenge-Expenses-chart-component/data.json';
 xmlhttp.open('GET',url,true);
 xmlhttp.send();
 xmlhttp.onreadystatechange = function(){
